@@ -1,0 +1,173 @@
+html {
+    height: 100%;
+    width: 100%;
+    --color-beige: #CED3BD;
+    --color-maroon: #2C2621;
+    --main-font: 'Open Sans', sans-serif;
+    font-family: var(--main-font);
+}
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  background-color: var(--color-beige);
+  padding: 2rem;
+}
+
+.alert {
+    display: flex;
+    justify-content: center;
+}
+
+#adv-popup {
+    position: relative;
+    background-color: var(--color-beige);
+    margin: 0;
+    padding: 0.5em;
+}
+
+.alert-description {
+    text-align: center;
+}
+
+#opcoes {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 4.1rem;
+}
+
+#our-brand {
+    height: 3.5rem;
+}
+
+#close-alert {
+    position: absolute;
+    right: 10px;    
+}
+
+#card-containers {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.regular-text {
+  font-family: var(--main-font);
+  font-weight: bold;
+  font-size: 1.0988em;
+  color: var(--color-maroon);
+}
+
+.search-form {
+  --searchButtonWidth: 75px;
+  max-width: 320px;
+  overflow: hidden;
+  position: relative;
+}
+
+.search-input {
+  border: 0;
+  margin: 0;
+  padding: 0.5rem calc(var(--searchButtonWidth) + 0.5rem) 0.5rem 0.5rem;
+  border-radius: 8px;
+  width: 100%;
+  background: #ddd;
+  -webkit-appearance: none;
+  font-size: 13px;
+}
+
+.search-input:focus {
+  outline: 0;
+  background: white;
+}
+
+.search-input:not(:placeholder-shown) ~ .search-button {
+  transform: translateX(calc(-1 * var(--searchButtonWidth)));
+}
+
+.search-button {
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 8px;
+  position: absolute; 
+  top: 0;
+  left: 100%;
+  width: var(--searchButtonWidth);
+  transition: 0.2s;
+  background: #455A64;
+  color: white;
+  font-size: 13px;
+  height: 100%;
+}
+
+.search-button:focus {
+  outline: 0;
+  background: #222;
+}
+
+.screen-reader-text {
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+
+a:link { 
+  text-decoration: none; 
+}
+
+#free-form-container {
+  margin: 1.2rem 20% 4.4rem 20%;
+}
+
+#formulario {
+  padding: 2.4rem 27% 4.4rem 27%;
+}
+
+#cadastrese {
+    margin-bottom: 20px;
+    display:flex;
+    justify-content: center;
+}
+
+.carousel-inner > .carousel-item {
+    height: 35em;
+}
+
+.carousel-item > .carousel-caption {
+    /* From https://css.glass */
+    background: rgba(92, 97, 77, 0.5);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    left: 35%;
+    right: 35%;
+}
+
+.top-form{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.icon {
+  height: 2.201rem;
+}
+
+.card-img-top {
+  width: 150px;
+  height: 180px;
+}
+
+#inscricao {
+  display:flex;
+  justify-content:center;
+  
+}
+
+#cadastro {
+  display:flex;
+  justify-content:center;
+  
+}
